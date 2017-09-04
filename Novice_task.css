@@ -1,0 +1,174 @@
+/*css reset*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:36px;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+
+
+
+:focus {
+    outline: none;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    text-decoration: none;
+    text-align: center;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*write self*/
+
+
+body{
+    width: 1920px;
+    margin: 0 auto;
+    background-color: #fdef0a;
+    overflow-x: hidden;
+}
+main{
+    width: 1920px;
+    height:3227px;
+    margin: 0 auto;
+    background:url("images/center.png") no-repeat center top;
+    position: relative;
+    top:-100px;
+}
+
+a.task1{
+    position: absolute;
+    top:880px;
+    left:446px;
+    width: 406px;
+    height: 86px;
+    line-height: 86px;
+    border-radius: 43px;
+    background-color: #ff4833;
+    color: #FDEF0A;
+
+}
+
+a.task2{
+    position: absolute;
+    top:1360px;
+    width: 406px;
+    height: 86px;
+    line-height: 86px;
+    border-radius: 43px;
+    background-color: #fff;
+    color: #882FDD;
+    right:390px;
+}
+
+a.task3{
+    position: absolute;
+    top:1705px;
+    width: 406px;
+    height: 86px;
+    line-height: 86px;
+    border-radius: 43px;
+    background-color: #999;
+    color: #fff;
+    left:445px;
+}
+
+a.task4{
+    position: absolute;
+    top:2225px;
+    width: 406px;
+    height: 86px;
+    line-height: 86px;
+    border-radius: 43px;
+    background-color: #999;
+    color: #fff;
+    right:435px;
+}
+
+footer{
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    position: relative;
+    top: -50px;
+
+}
+
+var scrollTop = document.documentElement.scrollTop || window.pageYOffset || document.body.scrollTop;
